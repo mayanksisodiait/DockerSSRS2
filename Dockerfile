@@ -6,12 +6,12 @@ LABEL maintainer "Perry Skountrianos"
 ENV exe "https://go.microsoft.com/fwlink/?linkid=835677"
 ENV box "https://go.microsoft.com/fwlink/?linkid=835679"
 
-ENV sa_password="Qwerty@12345" \
+ENV sa_password="Test@123" \
     attach_dbs="" \
     ACCEPT_EULA="Y" \
     sa_password_path="C:\ProgramData\Docker\secrets\sa-password" \
     ssrs_user="SSRSAdmin" \
-    ssrs_password="Qwerty@12345" \
+    ssrs_password="Test@123" \
     SSRS_edition="EVAL" \
     ssrs_password_path="C:\ProgramData\Docker\secrets\ssrs-password"
 

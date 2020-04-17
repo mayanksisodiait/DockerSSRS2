@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
-LABEL maintainer "Perry Skountrianos"
+LABEL maintainer "Mayank Sisodia"
 
 # SQL Server 2016 vNext:
 ENV exe "https://go.microsoft.com/fwlink/?linkid=835677"
